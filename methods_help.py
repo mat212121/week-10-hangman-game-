@@ -56,6 +56,7 @@ print(fruits)
   
 phone_brands = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
 tv_brands = {"Sony", "Philips", "Samsung", "LG"}
-print(phone_brands.isdisjoint(tv_brands))
+isolated = phone_brands.isdisjoint(tv_brands)
+print(isolated)
 
   # Search the documentation for the requested method to know how it works.
